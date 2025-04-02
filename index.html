@@ -5,17 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilo.css">
     <title>Práctica</title>
+    <script src="./funcion.js"></script>
 </head>
 <body>
-    <form action="#" method="get">
+    <form id="form">
         <div>
             <label for="Username">Nombre de usuario:</label>
-            <input type="text" name="Username" id="Username" placeholder="Nombre de usuario" required>
+            <input type="text" name="Username" id="Username" placeholder="Nombre de usuario">
         </div>
         <div>
             <label for="psw">Contraseña:</label>
-            <input type="text" name="pswd" id="psw" placeholder="Introduzca la contraseña" required>
+            <input type="text" name="pswd" id="psw" placeholder="Introduzca la contraseña">
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
         </div>
     </form>
+    
 </body>
 </html>
